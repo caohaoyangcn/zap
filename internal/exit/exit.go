@@ -24,7 +24,7 @@ package exit
 
 import "os"
 
-var real = func() { os.Exit(1) }
+var real = func() { os.Exit(2) }
 
 // Exit normally terminates the process by calling os.Exit(1). If the package
 // is stubbed, it instead records a call in the testing spy.
